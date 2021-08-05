@@ -1,0 +1,109 @@
+body {
+ background-image: url('card_wallpaper.jpg');
+ background-size:     cover;
+ background-repeat:   no-repeat;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url('wallpaper_phones.jpg');
+  }
+	}
+
+.card_container {
+    background: rgba(255, 255, 255, 0.6);
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.profile_avatar {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Sacramento', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+    margin: auto;
+}
+
+h3 {
+    color: #000000;
+    font-family: 'Sacramento', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    position: absolute;
+    bottom: 150px;
+    left: 75px;
+    margin: auto;
+}
+
+.internal_container {
+    padding: 10px 0 20px;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    right: 0;
+    margin: auto;
+}
+
+.icons-bottom {
+padding: 5px 0 5px;
+}
+
+.icon-twitter {
+  width: 60px;
+  margin: 0.9% 0.5%;
+
+ }
+
+.icon-github
+{
+  width: 60px;
+  margin: 0.9% 0.5%;
+ }
+
+ .icon-reddit {
+  width: 60px;
+  margin: 0.9% 0.5%;
+ }
+
+ .icon-blog {
+  width: 60px;
+  margin: 0.9% 0.5%;
+ }
+ .icon-home {
+  width: 60px;
+  margin: 0.9% 0.5%;
+ }
+
+ .bottom-container {
+  padding: 10px 0 20px;
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+  right: 0;
+  margin: auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 1rem;
+}
